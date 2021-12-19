@@ -88,6 +88,38 @@ class AppointmentSeque: UIViewController
             {
                 depNames.append(i[depName]!)
             }
+            
+            let descId = try self.database.prepare(self.appTable.order(appId.desc))
+            var counter: Int = 0
+            for i in descId
+            {
+                if counter == 3
+                {
+                    break
+                }
+                
+                var docsName: String = ""
+                let rows = try self.database.prepare(self.docTable.filter(docId == i[self.docId]))
+                for row in rows
+                {
+                    docsName = row[self.docName]!
+                }
+                
+                if counter == 0
+                {
+                    label1.text = docsName + "\n" + i[self.appDate]
+                }
+                if counter == 1
+                {
+                    label2.text = docsName + "\n" + i[self.appDate]
+                }
+                if counter == 2
+                {
+                    label3.text = docsName + "\n" + i[self.appDate]
+                    break
+                }
+                counter += 1
+            }
         }
         catch
         {
@@ -321,7 +353,7 @@ class AppointmentSeque: UIViewController
                     }
                     
                     var docsName: String = ""
-                    let rows = try self.database.prepare(self.docTable.filter(docName == docSelectName))
+                    let rows = try self.database.prepare(self.docTable.filter(docId == i[self.docId]))
                     for row in rows
                     {
                         docsName = row[self.docName]!
@@ -342,6 +374,8 @@ class AppointmentSeque: UIViewController
                     }
                     counter += 1
                 }
+                
+                createAlert(title: "Success", message: "Your appointment has been created. Please be at the hospital 15 minutes before your appointment time.")
             }
             catch
             {

@@ -172,6 +172,10 @@ class Main: UIViewController, MenuControllerDelegate
         qArr.append(UIImage(named: "q1")!)
         qArr.append(UIImage(named: "q2")!)
         qArr.append(UIImage(named: "q3")!)
+        qArr.append(UIImage(named: "q4")!)
+        qArr.append(UIImage(named: "q5")!)
+        qArr.append(UIImage(named: "q6")!)
+        qArr.append(UIImage(named: "q7")!)
         
         pageControl.numberOfPages = imgArr.count
         pageControl.currentPage = i
