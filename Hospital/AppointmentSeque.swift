@@ -130,6 +130,7 @@ class AppointmentSeque: UIViewController
     }
 
     
+    @IBOutlet weak var depOutlet: UIButton!
     @IBOutlet weak var docOutlet: UIButton!
     @IBOutlet weak var timeOutlet: UIButton!
     var depSelectName: String = ""
@@ -143,6 +144,8 @@ class AppointmentSeque: UIViewController
             guard let _ = self else { return }
             sender.setTitle(item, for: .normal)
             self!.docOutlet.isUserInteractionEnabled = true
+            self!.docOutlet.setTitle("Choose doctor", for: .normal)
+            self!.timeOutlet.setTitle("Choose hour", for: .normal)
             if let buttonTitle = sender.title(for: .normal)
             {
                 self!.depSelectName = buttonTitle
@@ -186,7 +189,7 @@ class AppointmentSeque: UIViewController
             guard let _ = self else { return }
             sender.setTitle(item, for: .normal)
             self!.appointmentDate.isUserInteractionEnabled = true
-            
+            self!.timeOutlet.setTitle("Choose hour", for: .normal)
             let components = self!.appointmentDate.calendar.dateComponents([.year, .month, .day, .weekday], from: self!.appointmentDate.date)
             if components.weekday == 1 || components.weekday == 7
             {
@@ -210,7 +213,7 @@ class AppointmentSeque: UIViewController
     @IBAction func appointmentButton(_ sender: UIDatePicker)
     {
         submitOutlet.isUserInteractionEnabled = false
-        
+        timeOutlet.setTitle("Choose hour", for: .normal)
         let components = appointmentDate.calendar.dateComponents([.year, .month, .day, .weekday], from: appointmentDate.date)
         
         if components.weekday == 1 || components.weekday == 7
@@ -300,7 +303,6 @@ class AppointmentSeque: UIViewController
         self.present(alert, animated: true, completion: nil)
     }
     
-    
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
@@ -343,6 +345,11 @@ class AppointmentSeque: UIViewController
                 appointmentDate.isUserInteractionEnabled = false
                 timeOutlet.isUserInteractionEnabled = false
                 
+                nameSurname.text = ""
+                depOutlet.setTitle("Choose department", for: .normal)
+                docOutlet.setTitle("Choose doctor", for: .normal)
+                timeOutlet.setTitle("Choose hour", for: .normal)
+                
                 let descId = try self.database.prepare(self.appTable.order(appId.desc))
                 var counter: Int = 0
                 for i in descId
@@ -374,6 +381,7 @@ class AppointmentSeque: UIViewController
                     }
                     counter += 1
                 }
+                
                 
                 createAlert(title: "Success", message: "Your appointment has been created. Please be at the hospital 15 minutes before your appointment time.")
             }

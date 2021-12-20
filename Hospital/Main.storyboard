@@ -374,6 +374,7 @@
                     <connections>
                         <outlet property="appointmentDate" destination="unz-UD-uke" id="wUK-jZ-bJ9"/>
                         <outlet property="birthDate" destination="eeS-dv-Yrj" id="N62-b8-2oB"/>
+                        <outlet property="depOutlet" destination="hLc-kD-eka" id="oQK-Zy-h4T"/>
                         <outlet property="docOutlet" destination="vM1-99-tuv" id="vwN-VH-gwS"/>
                         <outlet property="label1" destination="xnf-MD-nw8" id="OoF-Zh-00F"/>
                         <outlet property="label2" destination="a6K-ep-99J" id="fGj-mw-CGu"/>
