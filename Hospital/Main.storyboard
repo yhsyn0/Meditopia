@@ -472,7 +472,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.81471484900000002" green="0.98012942079999998" blue="0.94119709730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
                                     <outlet property="delegate" destination="1wZ-3k-nFK" id="vRH-sv-8JT"/>
@@ -512,7 +512,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="PpG-OF-Ad8"/>
+        <segue reference="dqe-Gx-aH3"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AppName" width="986" height="131"/>

@@ -49,12 +49,9 @@ class AppointmentSeque: UIViewController
             print("Table Created")
         }
         
-        let insertApp = self.appTable.insert(self.appDate <- "23/12/2021 09:00", self.patName <- "Alice Adam", self.patBirth <- "01/01/2001", self.docId <- 1, self.depId <- 1)
-        
         do
         {
             //try self.database.run(createTable)
-            try self.database.run(insertApp)
         }
         catch
         {
@@ -392,4 +389,8 @@ class AppointmentSeque: UIViewController
         }
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
+    {
+        self.view.endEditing(true)
+    }
 }

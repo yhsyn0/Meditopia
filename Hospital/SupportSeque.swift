@@ -13,6 +13,12 @@ class SupportSeque: UIViewController, UITextViewDelegate
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        
+        messageText.delegate = self
+        
+        messageText.text = "Please enter your message"
+        messageText.textColor = UIColor.lightGray
+        messageText.selectedTextRange = messageText.textRange(from: messageText.beginningOfDocument, to: messageText.beginningOfDocument)
         // Do any additional setup after loading the view.
     }
     
@@ -58,9 +64,36 @@ class SupportSeque: UIViewController, UITextViewDelegate
     
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool
     {
-        let newText = (textView.text as NSString).replacingCharacters(in: range, with: text)
-        let numberOfChars = newText.count
-        return numberOfChars <= 200    // 10 Limit Value
+        let updatedText = (textView.text as NSString).replacingCharacters(in: range, with: text)
+        let numberOfChars = updatedText.count
+        
+        if updatedText.isEmpty
+        {
+
+            textView.text = "Please enter your message"
+            textView.textColor = UIColor.lightGray
+
+            textView.selectedTextRange = textView.textRange(from: textView.beginningOfDocument, to: textView.beginningOfDocument)
+        }
+
+        else if textView.textColor == UIColor.lightGray && !text.isEmpty
+        {
+            textView.textColor = UIColor.black
+            textView.text = text
+        }
+        
+        return numberOfChars <= 200
+    }
+    
+    func textViewDidChangeSelection(_ textView: UITextView)
+    {
+        if self.view.window != nil
+        {
+            if textView.textColor == UIColor.lightGray
+            {
+                textView.selectedTextRange = textView.textRange(from: textView.beginningOfDocument, to: textView.beginningOfDocument)
+            }
+        }
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)

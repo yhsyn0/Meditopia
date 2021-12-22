@@ -24,7 +24,7 @@ class Main: UIViewController, MenuControllerDelegate
     func createTable()
     {
         print("CREATE TAPPED")
-                
+ 
         let createTable = self.depTable.create { (table) in
             table.column(self.depId, primaryKey: true)
             table.column(self.depName)
@@ -53,6 +53,15 @@ class Main: UIViewController, MenuControllerDelegate
         let insertUser14 = self.docTable.insert(self.docName <- "Matthew Hernandez", self.depId <- 6)
         let insertUser15 = self.docTable.insert(self.docName <- "Daniel Wilson", self.depId <- 7)
         let insertUser16 = self.docTable.insert(self.docName <- "Barbara Moore", self.depId <- 8)
+
+        let insertUser17 = self.docTable.insert(self.docName <- "Teressa Bates", self.depId <- 1)
+        let insertUser18 = self.docTable.insert(self.docName <- "Stanley Alexander", self.depId <- 2)
+        let insertUser19 = self.docTable.insert(self.docName <- "Patricia Curtis", self.depId <- 3)
+        let insertUser20 = self.docTable.insert(self.docName <- "Lynette Cavill", self.depId <- 4)
+        let insertUser21 = self.docTable.insert(self.docName <- "Nichola Eason", self.depId <- 5)
+        let insertUser22 = self.docTable.insert(self.docName <- "Lillian Hooten", self.depId <- 6)
+        let insertUser23 = self.docTable.insert(self.docName <- "Melanie Pexton", self.depId <- 7)
+        let insertUser24 = self.docTable.insert(self.docName <- "Shana Rees", self.depId <- 8)
         
         do
         {
@@ -76,6 +85,15 @@ class Main: UIViewController, MenuControllerDelegate
             try self.database.run(insertUser14)
             try self.database.run(insertUser15)
             try self.database.run(insertUser16)
+     
+            try self.database.run(insertUser17)
+            try self.database.run(insertUser18)
+            try self.database.run(insertUser19)
+            try self.database.run(insertUser20)
+            try self.database.run(insertUser21)
+            try self.database.run(insertUser22)
+            try self.database.run(insertUser23)
+            try self.database.run(insertUser24)
 
             print("Created Table")
         }

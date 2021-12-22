@@ -18,6 +18,7 @@ class DoctorSeque: UIViewController, UITableViewDataSource, UITableViewDelegate
     let docName = Expression<String?>("docName")
     let depTable = Table("departments")
     let depName = Expression<String?>("depName")
+    let depId = Expression<Int64>("depId")
     
     @IBOutlet weak var doctorTable: UITableView!
     override func viewDidLoad()
@@ -36,7 +37,6 @@ class DoctorSeque: UIViewController, UITableViewDataSource, UITableViewDelegate
             self.database = database
             
             numOfRows = try database.scalar(docTable.count)
-            
             let rows1 = try self.database.prepare(self.docTable)
             let rows2 = try self.database.prepare(self.depTable)
             
@@ -53,8 +53,6 @@ class DoctorSeque: UIViewController, UITableViewDataSource, UITableViewDelegate
         {
             print(error)
         }
-        
-        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -73,10 +71,23 @@ class DoctorSeque: UIViewController, UITableViewDataSource, UITableViewDelegate
         
         cell.cellBackground.image = UIImage(named: "doctorCell")
         cell.docName.text = docNames[indexPath.row]
-        cell.docDepartment.text = depNames[indexPath.row]
+        var departID: Int64 = -1
+        
+        do
+        {
+            let rows = try self.database.prepare(self.docTable.filter(docName == docNames[indexPath.row]))
+            for row in rows
+            {
+                departID = row[self.depId]
+            }
+        }
+        catch
+        {
+            print(error)
+        }
+        cell.docDepartment.text = depNames[Int(departID-1)]
         cell.docWorkHours.text = "9 AM - 5 PM"
         
         return cell
     }
-    
 }
