@@ -18,7 +18,8 @@ class SupportSeque: UIViewController, UITextViewDelegate
         
         messageText.text = "Please enter your message"
         messageText.textColor = UIColor.lightGray
-        messageText.selectedTextRange = messageText.textRange(from: messageText.beginningOfDocument, to: messageText.beginningOfDocument)
+        messageText.selectedTextRange = messageText.textRange(from: messageText.beginningOfDocument,
+                                                              to: messageText.beginningOfDocument)
         // Do any additional setup after loading the view.
     }
     
@@ -58,7 +59,8 @@ class SupportSeque: UIViewController, UITextViewDelegate
         {
             emailText.text?.removeAll()
             messageText.text?.removeAll()
-            createAlert(title: "Successful", message: "\nWe got your message. We're going to make a return as soon as possible.")
+            createAlert(title: "Successful",
+                        message: "\nWe got your message. We're going to make a return as soon as possible.")
         }
     }
     
@@ -73,7 +75,8 @@ class SupportSeque: UIViewController, UITextViewDelegate
             textView.text = "Please enter your message"
             textView.textColor = UIColor.lightGray
 
-            textView.selectedTextRange = textView.textRange(from: textView.beginningOfDocument, to: textView.beginningOfDocument)
+            textView.selectedTextRange = textView.textRange(from: textView.beginningOfDocument,
+                                                            to: textView.beginningOfDocument)
         }
 
         else if textView.textColor == UIColor.lightGray && !text.isEmpty
@@ -91,7 +94,8 @@ class SupportSeque: UIViewController, UITextViewDelegate
         {
             if textView.textColor == UIColor.lightGray
             {
-                textView.selectedTextRange = textView.textRange(from: textView.beginningOfDocument, to: textView.beginningOfDocument)
+                textView.selectedTextRange = textView.textRange(from: textView.beginningOfDocument,
+                                                                to: textView.beginningOfDocument)
             }
         }
     }

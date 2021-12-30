@@ -1,0 +1,754 @@
+Analyzing 31 files:
+S...............S.........S....
+
+********** ./Hospital/AppDelegate.swift **********
+/Users/hsyn/Desktop/Hospital/Hospital/AppDelegate.swift:14:101: warning: [max-line-length] Line is over maximum character limit (115/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppDelegate.swift:27:101: warning: [max-line-length] Line is over maximum character limit (108/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppDelegate.swift:30:91: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/AppDelegate.swift:30:101: warning: [max-line-length] Line is over maximum character limit (112/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppDelegate.swift:36:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Hospital/AppointmentSeque.swift **********
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:14:20: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:37:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:40:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:49:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:54:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:55:101: warning: [max-line-length] Line is over maximum character limit (111/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:58:15: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:63:13: warning: [brace-style] For-in loop should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:67:13: warning: [brace-style] For-in loop should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:71:26: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:76:16: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:83:16: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:100:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:105:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:110:57: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:123:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:125:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:126:11: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:134:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:147:57: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:152:101: warning: [max-line-length] Line is over maximum character limit (107/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:153:101: warning: [max-line-length] Line is over maximum character limit (108/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:165:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:166:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:177:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:179:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:213:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:218:61: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:230:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:231:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:233:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:234:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:235:98: warning: [parenthesis-whitespace] Parameter clause in closure signature should be preceded by exactly one space
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:235:101: warning: [max-line-length] Line is over maximum character limit (108/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:238:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:240:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:244:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:251:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:257:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:261:101: warning: [max-line-length] Line is over maximum character limit (105/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:266:101: warning: [max-line-length] Line is over maximum character limit (112/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:269:16: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:283:16: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:285:30: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:291:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:307:16: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:317:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:318:43: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/AppointmentSeque.swift:320:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Hospital/CustomTableViewCell.swift **********
+/Users/hsyn/Desktop/Hospital/Hospital/CustomTableViewCell.swift:16:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/CustomTableViewCell.swift:20:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Hospital/DoctorSeque.swift **********
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:12:1: warning: [brace-style] Class should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:14:20: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:22:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:24:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:25:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:28:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:31:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:36:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:37:101: warning: [max-line-length] Line is over maximum character limit (111/100)
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:40:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:44:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:46:13: warning: [brace-style] For-in loop should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:50:13: warning: [brace-style] For-in loop should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:59:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:60:77: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:60:85: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:61:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:66:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:69:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:71:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:72:85: warning: [forced-type-cast] Force casts should be avoided
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:72:101: warning: [max-line-length] Line is over maximum character limit (105/100)
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:76:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:79:101: warning: [max-line-length] Line is over maximum character limit (106/100)
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:81:13: warning: [brace-style] For-in loop should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:91:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/DoctorSeque.swift:93:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Hospital/Main.swift **********
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:13:1: warning: [brace-style] Class should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:23:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:27:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:32:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:38:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:40:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:47:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:53:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:58:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:65:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:70:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:79:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:88:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:105:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:109:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:112:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:135:9: warning: [min-name-length] Variable name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:141:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:143:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:145:101: warning: [max-line-length] Line is over maximum character limit (117/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:149:20: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:154:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:157:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:159:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:164:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:168:101: warning: [max-line-length] Line is over maximum character limit (119/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:169:101: warning: [max-line-length] Line is over maximum character limit (111/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:177:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:185:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:198:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:204:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:205:25: warning: [colon-whitespace] Colon at column 25 should have exactly one space after it
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:206:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:208:9: warning: [brace-style] For-in loop should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:217:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:218:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:219:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:220:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:222:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:224:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:228:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:232:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:235:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:237:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:239:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:240:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:244:20: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:249:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:250:101: warning: [max-line-length] Line is over maximum character limit (107/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:254:20: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:259:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:260:101: warning: [max-line-length] Line is over maximum character limit (117/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:264:20: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:269:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:271:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:273:13: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:276:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:278:13: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:281:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:283:13: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:289:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:291:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:294:9: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:297:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:305:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:307:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:311:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:313:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:316:9: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:319:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:328:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:329:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:330:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:331:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:334:9: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:337:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:347:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Main.swift:350: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** ./Hospital/Menu.swift **********
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:12:1: warning: [brace-style] Protocol should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:17:1: warning: [brace-style] Class should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:19:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:21:7: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:22:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:24:5: warning: [brace-style] Initializer body should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:29:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:31:5: warning: [brace-style] Initializer body should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:34:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:36:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:48:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:49:86: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:49:94: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:50:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:53:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:54:101: warning: [max-line-length] Line is over maximum character limit (107/100)
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:55:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:63:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:66:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:68:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:70:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:73:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Hospital/Menu.swift:75: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** ./Hospital/SceneDelegate.swift **********
+/Users/hsyn/Desktop/Hospital/Hospital/SceneDelegate.swift:19:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SceneDelegate.swift:22:23: warning: [redundant-parentheses] Initializer expression should not be enclosed within parentheses
+/Users/hsyn/Desktop/Hospital/Hospital/SceneDelegate.swift:27:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SceneDelegate.swift:28:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SceneDelegate.swift:30:101: warning: [max-line-length] Line is over maximum character limit (108/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SceneDelegate.swift:35:101: warning: [max-line-length] Line is over maximum character limit (114/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SceneDelegate.swift:50:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SceneDelegate.swift:56: warning: [terminating-newline] File should terminate with exactly one newline character ('\n')
+
+********** ./Hospital/SupportSeque.swift **********
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:12:1: warning: [brace-style] Class should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:13:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:14:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:16:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:18:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:25:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:27:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:28:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:29:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:30:98: warning: [parenthesis-whitespace] Parameter clause in closure signature should be preceded by exactly one space
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:30:101: warning: [max-line-length] Line is over maximum character limit (108/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:33:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:36:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:38:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:41:43: warning: [colon-whitespace] Colon at column 43 should have exactly one space after it
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:44:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:47:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:48:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:50:9: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:53:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:55:9: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:59:9: warning: [brace-style] Else clause should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:63:101: warning: [max-line-length] Line is over maximum character limit (108/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:66:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:67:101: warning: [max-line-length] Line is over maximum character limit (114/100)
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:68:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:71:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:73:9: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:83:9: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:87:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:90:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:92:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:94:9: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:96:13: warning: [brace-style] If statement should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:102:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:103:43: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:104:5: warning: [brace-style] Function should not have any line breaks before the opening brace
+/Users/hsyn/Desktop/Hospital/Hospital/SupportSeque.swift:106:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./HospitalTests/HospitalTests.swift **********
+/Users/hsyn/Desktop/Hospital/HospitalTests/HospitalTests.swift:13:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/hsyn/Desktop/Hospital/HospitalTests/HospitalTests.swift:17:101: warning: [max-line-length] Line is over maximum character limit (111/100)
+
+********** ./HospitalUITests/HospitalUITests.swift **********
+./HospitalUITests/HospitalUITests.swift could not be parsed successfully, skipping...
+
+********** ./HospitalUITests/HospitalUITestsLaunchTests.swift **********
+/Users/hsyn/Desktop/Hospital/HospitalUITests/HospitalUITestsLaunchTests.swift:12:24: warning: [max-name-length] Variable name is over maximum character limit (43/40)
+/Users/hsyn/Desktop/Hospital/HospitalUITests/HospitalUITestsLaunchTests.swift:21:13: warning: [min-name-length] Constant name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/HospitalUITests/HospitalUITestsLaunchTests.swift:31:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/DropDown/DropDown/helpers/DPDConstants.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDConstants.swift:25:18: warning: [min-name-length] Struct name is less than minimum character limit (2/4)
+
+********** ./Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:12:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:14:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:18:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:22:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:25:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:28:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:33:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:35:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:47:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:51:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:57:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:63:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:65:101: warning: [max-line-length] Line is over maximum character limit (134/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDKeyboardListener.swift:67:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+
+********** ./Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:11:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:14:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:15:101: warning: [max-line-length] Line is over maximum character limit (148/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:16:101: warning: [max-line-length] Line is over maximum character limit (124/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:18:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:19:101: warning: [max-line-length] Line is over maximum character limit (157/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:23:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:28:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:31:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:35:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:39:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:42:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:44:75: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:45:3: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:53:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/helpers/DPDUIView+Extension.swift:56:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+
+********** ./Pods/DropDown/DropDown/src/DropDown.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:11:26: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:17:41: warning: [min-name-length] Element name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:17:53: warning: [min-name-length] Element name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:17:101: warning: [max-line-length] Line is over maximum character limit (105/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:38:34: warning: [forced-type-cast] Force casts should be avoided
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:46: warning: [todo-syntax] TODO comments should be formatted either as <TODO: description> or <TODO(dev-name): description>
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:46:4: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:65:101: warning: [max-line-length] Line is over maximum character limit (117/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:66:8: warning: [min-name-length] Enum case name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:69:8: warning: [min-name-length] Enum case name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:76:4: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:79:25: warning: [lower-camel-case] Variable names should be lowerCamelCase
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:81:4: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:95:13: warning: [min-name-length] Constant name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:106:40: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:124:40: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:135:40: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:143:46: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:145:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:152:40: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:172:4: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:178:4: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:180:44: warning: [brace-style] WillSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:181:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:187:79: warning: [brace-style] If statement closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:192:41: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:193:46: warning: [brace-style] Setter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:200:46: warning: [brace-style] WillSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:216:49: warning: [brace-style] WillSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:217:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:230:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:260:69: warning: [brace-style] WillSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:261:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:270:62: warning: [brace-style] WillSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:271:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:280:63: warning: [brace-style] WillSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:281:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:290:62: warning: [brace-style] WillSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:291:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:303:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:308:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:310:101: warning: [max-line-length] Line is over maximum character limit (104/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:313:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:315:101: warning: [max-line-length] Line is over maximum character limit (104/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:323:53: warning: [brace-style] WillSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:332:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:337:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:341:40: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:343:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:350:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:352:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:355:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:365:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:366:4: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:384:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:402:34: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:404:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:407:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:411:40: warning: [brace-style] DidSet clause closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:416:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:419:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:435:101: warning: [max-line-length] Line is over maximum character limit (106/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:449:4: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:471:101: warning: [max-line-length] Line is over maximum character limit (132/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:472:101: warning: [max-line-length] Line is over maximum character limit (132/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:478:101: warning: [max-line-length] Line is over maximum character limit (254/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:501: warning: [max-file-length] File is over maximum line limit (1196/500)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:502:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:510:6: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:523:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:547:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:588:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:639:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:653:39: warning: [min-name-length] Element name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:653:51: warning: [min-name-length] Element name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:653:101: warning: [max-line-length] Line is over maximum character limit (173/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:666:8: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:670:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:679:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:682:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:696:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:699:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:703:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:708:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:710:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:713:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:714:7: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:715:7: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:716:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:719:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:722:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:728:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:738:7: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:739:7: warning: [min-name-length] Variable name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:747:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:749:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:752:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:755:75: warning: [forced-type-cast] Force casts should be avoided
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:757:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:759:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:764:3: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:769:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:772:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:773:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:776:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:780:3: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:789:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:792:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:797:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:800:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:803:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:805:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:806:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:807:101: warning: [max-line-length] Line is over maximum character limit (133/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:810:17: warning: [lower-camel-case] Function names should be lowerCamelCase
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:812:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:818:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:821:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:828:101: warning: [max-line-length] Line is over maximum character limit (190/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:829:101: warning: [max-line-length] Line is over maximum character limit (256/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:858:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:862:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:883:5: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:946:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:965:24: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:968:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:976:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:977:28: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:977:40: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:981:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:988:26: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:990:4: warning: [comma-whitespace] Comma at column 4 should have no spaces before it
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:992:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1000:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1002:30: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1002:42: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1015:13: warning: [min-name-length] Constant name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1025:7: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1026:39: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1027:26: warning: [colon-whitespace] Colon at column 26 should have exactly one space after it
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1029:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1031:26: warning: [colon-whitespace] Colon at column 26 should have exactly one space after it
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1033:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1034:44: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1043:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1047:81: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1047:89: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1051:101: warning: [max-line-length] Line is over maximum character limit (104/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1052:101: warning: [max-line-length] Line is over maximum character limit (136/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1052:123: warning: [forced-type-cast] Force casts should be avoided
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1059:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1060:55: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1060:65: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1064:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1070:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1076:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1080:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1081:51: warning: [brace-style] Opening brace should have exactly one space before it
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1086:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1087:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1104:16: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1111:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1116:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1118:101: warning: [max-line-length] Line is over maximum character limit (111/100)
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1121:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1123:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1128:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1150:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1189:2: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDown.swift:1195:3: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/DropDown/DropDown/src/DropDownCell.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:12:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:13:4: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:15:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:22:3: warning: [comment-whitespace] Single-line comment should start with whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:25:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:28:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:31:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:37:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:43:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:47:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:62:2: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/DropDown/DropDown/src/DropDownCell.swift:73:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+
+********** ./Pods/SideMenu/Pod/Classes/Deprecations.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:15:26: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:21:26: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:25:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:27:36: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:31:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:33:31: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:37:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:39:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:43:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:45:24: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:49:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:51:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:55:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:57:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:61:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:63:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:67:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:69:24: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:73:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:75:24: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:79:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:81:26: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:85:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:87:26: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:91:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:93:29: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:97:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:99:24: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:103:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:104:16: warning: [max-name-length] Variable name is over maximum character limit (50/40)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:105:28: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:109:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:110:38: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:111:24: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:115:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:117:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:121:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:123:38: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:127:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:129:30: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:133:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:135:24: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:139:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:141:24: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:145:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:147:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:151:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:153:28: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:157:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:159:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:163:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:165:26: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:169:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:171:26: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:175:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:177:26: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:181:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:183:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:189:27: warning: [brace-style] Getter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:197:101: warning: [max-line-length] Line is over maximum character limit (186/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:202:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Deprecations.swift:204:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/Extensions.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Extensions.swift:15:13: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Extensions.swift:34:13: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Extensions.swift:38:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Extensions.swift:43:101: warning: [max-line-length] Line is over maximum character limit (122/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Extensions.swift:60:101: warning: [max-line-length] Line is over maximum character limit (106/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Extensions.swift:89:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/Initializable.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Initializable.swift:23:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Initializable.swift:39:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/Print.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Print.swift:11:101: warning: [max-line-length] Line is over maximum character limit (166/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Print.swift:12:101: warning: [max-line-length] Line is over maximum character limit (167/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Print.swift:13:101: warning: [max-line-length] Line is over maximum character limit (260/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Print.swift:15:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Print.swift:17:101: warning: [max-line-length] Line is over maximum character limit (144/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Print.swift:18:101: warning: [max-line-length] Line is over maximum character limit (104/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Print.swift:29:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/Print.swift:34:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/Protected.swift **********
+./Pods/SideMenu/Pod/Classes/Protected.swift could not be parsed successfully, skipping...
+
+********** ./Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:13:101: warning: [max-line-length] Line is over maximum character limit (120/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:15:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:17:101: warning: [max-line-length] Line is over maximum character limit (110/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:19:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:21:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:26:101: warning: [max-line-length] Line is over maximum character limit (133/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:27:101: warning: [max-line-length] Line is over maximum character limit (133/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:71:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:73:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:85:101: warning: [max-line-length] Line is over maximum character limit (191/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:108:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:114:64: warning: [brace-style] If statement closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:182:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:187:101: warning: [max-line-length] Line is over maximum character limit (181/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:196:101: warning: [max-line-length] Line is over maximum character limit (147/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:216:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift:222:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+
+********** ./Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift:26:101: warning: [max-line-length] Line is over maximum character limit (158/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift:53:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift:64:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/SideMenuManager.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:16:41: warning: [min-name-length] Type name is less than minimum character limit (3/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:39:17: warning: [lower-camel-case] Variable names should be lowerCamelCase
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:39:101: warning: [max-line-length] Line is over maximum character limit (114/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:40:17: warning: [lower-camel-case] Variable names should be lowerCamelCase
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:40:101: warning: [max-line-length] Line is over maximum character limit (115/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:60:44: warning: [brace-style] Setter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:62:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:71:45: warning: [brace-style] Setter closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:81:101: warning: [max-line-length] Line is over maximum character limit (129/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:90:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:93:1: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:96:101: warning: [max-line-length] Line is over maximum character limit (159/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:100:101: warning: [max-line-length] Line is over maximum character limit (101/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:104:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:107:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:109:5: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:112:101: warning: [max-line-length] Line is over maximum character limit (106/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:114:101: warning: [max-line-length] Line is over maximum character limit (138/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:116:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:118:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:136:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:153:20: warning: [redundant-parentheses] Switch expression should not be enclosed within parentheses
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:156:101: warning: [max-line-length] Line is over maximum character limit (111/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:172:55: warning: [brace-style] If statement closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:184:98: warning: [brace-style] If statement closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:185:100: warning: [brace-style] If statement closing brace should be isolated on a separate line
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:200:31: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:200:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:201:101: warning: [max-line-length] Line is over maximum character limit (170/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:205:101: warning: [max-line-length] Line is over maximum character limit (136/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:210:50: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:211:101: warning: [max-line-length] Line is over maximum character limit (150/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:214:101: warning: [max-line-length] Line is over maximum character limit (115/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:222:28: warning: [max-name-length] Type name is over maximum character limit (46/40)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuManager.swift:228:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/SideMenuNavigationController.swift **********
+./Pods/SideMenu/Pod/Classes/SideMenuNavigationController.swift could not be parsed successfully, skipping...
+
+********** ./Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:13:101: warning: [max-line-length] Line is over maximum character limit (310/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:14:9: warning: [max-name-length] Variable name is over maximum character limit (46/40)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:15:101: warning: [max-line-length] Line is over maximum character limit (206/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:19:101: warning: [max-line-length] Line is over maximum character limit (129/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:24:101: warning: [max-line-length] Line is over maximum character limit (103/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:25:101: warning: [max-line-length] Line is over maximum character limit (141/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:58:101: warning: [max-line-length] Line is over maximum character limit (172/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:74:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:95:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:106:101: warning: [max-line-length] Line is over maximum character limit (118/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:108:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:114:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:116:101: warning: [max-line-length] Line is over maximum character limit (125/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:133:101: warning: [max-line-length] Line is over maximum character limit (116/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:135:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:148:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:150:101: warning: [max-line-length] Line is over maximum character limit (161/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:155:101: warning: [max-line-length] Line is over maximum character limit (133/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:166:101: warning: [max-line-length] Line is over maximum character limit (122/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:183:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:188:101: warning: [max-line-length] Line is over maximum character limit (105/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:201:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:204:101: warning: [max-line-length] Line is over maximum character limit (119/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:208:101: warning: [max-line-length] Line is over maximum character limit (130/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:209:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:241:21: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:241:101: warning: [max-line-length] Line is over maximum character limit (144/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:243:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:247:13: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:273:20: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:282:22: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:285:13: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:287:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:293:13: warning: [min-name-length] Constant name is less than minimum character limit (1/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:295:101: warning: [max-line-length] Line is over maximum character limit (105/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift:315:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:16:101: warning: [max-line-length] Line is over maximum character limit (123/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:18:101: warning: [max-line-length] Line is over maximum character limit (142/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:20:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:32:101: warning: [max-line-length] Line is over maximum character limit (153/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:34:101: warning: [max-line-length] Line is over maximum character limit (113/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:41:101: warning: [max-line-length] Line is over maximum character limit (156/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:42:47: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:42:101: warning: [max-line-length] Line is over maximum character limit (143/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:42:144: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:43:101: warning: [max-line-length] Line is over maximum character limit (168/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:44:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:44:38: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:44:101: warning: [max-line-length] Line is over maximum character limit (134/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:44:135: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:45:101: warning: [max-line-length] Line is over maximum character limit (148/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:46:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:46:44: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:46:101: warning: [max-line-length] Line is over maximum character limit (159/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:46:160: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:47:101: warning: [max-line-length] Line is over maximum character limit (153/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:48:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:48:44: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:48:101: warning: [max-line-length] Line is over maximum character limit (140/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:48:141: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:49:101: warning: [max-line-length] Line is over maximum character limit (165/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:50:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:50:35: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:50:101: warning: [max-line-length] Line is over maximum character limit (131/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:50:132: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:51:101: warning: [max-line-length] Line is over maximum character limit (145/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:52:5: warning: [function-whitespace] Function should have at least one blank line before it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:52:41: warning: [min-name-length] Constant name is less than minimum character limit (2/4)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:52:101: warning: [max-line-length] Line is over maximum character limit (156/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift:52:157: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:42:101: warning: [max-line-length] Line is over maximum character limit (102/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:49:101: warning: [max-line-length] Line is over maximum character limit (160/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:50:101: warning: [max-line-length] Line is over maximum character limit (104/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:51:101: warning: [max-line-length] Line is over maximum character limit (121/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:64:101: warning: [max-line-length] Line is over maximum character limit (109/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:83:101: warning: [max-line-length] Line is over maximum character limit (106/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:92:101: warning: [max-line-length] Line is over maximum character limit (144/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:97:101: warning: [max-line-length] Line is over maximum character limit (123/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift:106:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:12:101: warning: [max-line-length] Line is over maximum character limit (136/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:13:101: warning: [max-line-length] Line is over maximum character limit (136/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:34:101: warning: [max-line-length] Line is over maximum character limit (170/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:42:101: warning: [max-line-length] Line is over maximum character limit (114/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:46:101: warning: [max-line-length] Line is over maximum character limit (147/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:50:101: warning: [max-line-length] Line is over maximum character limit (144/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:62:101: warning: [max-line-length] Line is over maximum character limit (191/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:70:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:75:101: warning: [max-line-length] Line is over maximum character limit (144/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:79:101: warning: [max-line-length] Line is over maximum character limit (144/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:81:6: warning: [function-whitespace] Function should have at least one blank line after it
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:86:101: warning: [max-line-length] Line is over maximum character limit (132/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:89:101: warning: [max-line-length] Line is over maximum character limit (162/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift:92:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+********** ./Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift **********
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:12:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:21:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:22:101: warning: [max-line-length] Line is over maximum character limit (120/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:26:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:29:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:36:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:40:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:43:4: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:47:8: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:51:12: warning: [trailing-whitespace] Line should not have any trailing whitespace
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:52:101: warning: [max-line-length] Line is over maximum character limit (106/100)
+/Users/hsyn/Desktop/Hospital/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift:60:6: warning: [function-whitespace] Function should have at least one blank line after it
+
+Analyzed 28 files, skipped 3 files, and detected 686 violations (0 errors, 686 warnings).
+

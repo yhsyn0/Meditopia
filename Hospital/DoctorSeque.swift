@@ -31,7 +31,9 @@ class DoctorSeque: UIViewController, UITableViewDataSource, UITableViewDelegate
         
         do
         {
-            let documentDirectory = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+            let documentDirectory = try FileManager.default.url(for: .documentDirectory,
+                                                                   in: .userDomainMask,
+                                                                   appropriateFor: nil, create: true)
             let fileUrl = documentDirectory.appendingPathComponent("doctors").appendingPathExtension("sqlite3")
             let database = try Connection(fileUrl.path)
             self.database = database
@@ -67,8 +69,7 @@ class DoctorSeque: UIViewController, UITableViewDataSource, UITableViewDelegate
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = doctorTable.dequeueReusableCell(withIdentifier: "customCell") as! CustomTableViewCell
-        
+        let cell = doctorTable.dequeueReusableCell(withIdentifier: "customCell")! as! CustomTableViewCell
         cell.cellBackground.image = UIImage(named: "doctorCell")
         cell.docName.text = docNames[indexPath.row]
         var departID: Int64 = -1

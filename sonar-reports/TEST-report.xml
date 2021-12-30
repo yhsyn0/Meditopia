@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='HospitalTests.xctest' tests='8' failures='0'>
+  <testsuite name='HospitalUITests.HospitalUITests' tests='2' failures='0'>
+    <testcase classname='HospitalUITests.HospitalUITests' name='testExample' time='4.507'/>
+    <testcase classname='HospitalUITests.HospitalUITests' name='testLaunchPerformance' time='104.993'/>
+  </testsuite>
+  <testsuite name='HospitalUITests.HospitalUITestsLaunchTests' tests='4' failures='0'>
+    <testcase classname='HospitalUITests.HospitalUITestsLaunchTests' name='testLaunch' time='7.688'/>
+    <testcase classname='HospitalUITests.HospitalUITestsLaunchTests' name='testLaunch' time='9.425'/>
+    <testcase classname='HospitalUITests.HospitalUITestsLaunchTests' name='testLaunch' time='8.005'/>
+    <testcase classname='HospitalUITests.HospitalUITestsLaunchTests' name='testLaunch' time='9.276'/>
+  </testsuite>
+  <testsuite name='HospitalTests.HospitalTests' tests='2' failures='0'>
+    <testcase classname='HospitalTests.HospitalTests' name='testExample' time='0.003'/>
+    <testcase classname='HospitalTests.HospitalTests' name='testPerformanceExample' time='0.263'/>
+  </testsuite>
+</testsuites>

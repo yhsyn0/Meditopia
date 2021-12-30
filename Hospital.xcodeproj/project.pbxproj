@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC321070B07ABBA8F225877 /* Pods_Hospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DE4D3247ABF114DB5E1022 /* Pods_Hospital.framework */; };
 		A30BD8C5276B7C0F00ECF7CB /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30BD8C4276B7C0F00ECF7CB /* SQLite.framework */; };
 		A30BD8C6276B7C0F00ECF7CB /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A30BD8C4276B7C0F00ECF7CB /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A30CC30C277C792F0065F727 /* SignupSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CC30B277C792F0065F727 /* SignupSeque.swift */; };
 		A30ED81B276E6FEF00C1A0A0 /* AppointmentSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30ED81A276E6FEF00C1A0A0 /* AppointmentSeque.swift */; };
 		A333128827565CC10099BA64 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A333128727565CC10099BA64 /* Main.swift */; };
 		A333128C27565EBA0099BA64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A333128B27565EBA0099BA64 /* Main.storyboard */; };
@@ -18,10 +18,80 @@
 		A33A2952274BC4C000170265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33A2951274BC4C000170265 /* Assets.xcassets */; };
 		A33A2955274BC4C000170265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33A2953274BC4C000170265 /* LaunchScreen.storyboard */; };
 		A358C953276B41FA00A5610A /* DoctorSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358C952276B41FA00A5610A /* DoctorSeque.swift */; };
+		A365713F2774AF7700D01D65 /* HospitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365713E2774AF7700D01D65 /* HospitalUITests.swift */; };
+		A36571412774AF7700D01D65 /* HospitalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36571402774AF7700D01D65 /* HospitalUITestsLaunchTests.swift */; };
+		A365714E2774AF8700D01D65 /* HospitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365714D2774AF8700D01D65 /* HospitalTests.swift */; };
 		A3E1B93D276B70BA008E55FC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1B93C276B70BA008E55FC /* CustomTableViewCell.swift */; };
 		A3EAB1C0276A09A400BAB284 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAB1BF276A09A400BAB284 /* Menu.swift */; };
 		A3EAB1C4276A1D9800BAB284 /* SupportSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAB1C3276A1D9800BAB284 /* SupportSeque.swift */; };
+		A3F6ECB02774BFDF006BC052 /* Pods_Hospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DE4D3247ABF114DB5E1022 /* Pods_Hospital.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A36571422774AF7700D01D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A33A293D274BC4BF00170265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33A2944274BC4BF00170265;
+			remoteInfo = Hospital;
+		};
+		A365714F2774AF8700D01D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A33A293D274BC4BF00170265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33A2944274BC4BF00170265;
+			remoteInfo = Hospital;
+		};
+		A3F6ECD42774C127006BC052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		A3F6ECD62774C127006BC052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		A3F6ECD82774C127006BC052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		A3F6ECDA2774C127006BC052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		A3F6ECDC2774C127006BC052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		A3F6ECDE2774C127006BC052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		A3F6ECE02774C127006BC052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A30BD8C7276B7C0F00ECF7CB /* Embed Frameworks */ = {
@@ -41,6 +111,7 @@
 		23DE4D3247ABF114DB5E1022 /* Pods_Hospital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hospital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		833A9F82E45054C5578E7160 /* Pods-Hospital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital.release.xcconfig"; path = "Target Support Files/Pods-Hospital/Pods-Hospital.release.xcconfig"; sourceTree = "<group>"; };
 		A30BD8C4276B7C0F00ECF7CB /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30CC30B277C792F0065F727 /* SignupSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupSeque.swift; sourceTree = "<group>"; };
 		A30ED81A276E6FEF00C1A0A0 /* AppointmentSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentSeque.swift; sourceTree = "<group>"; };
 		A333128727565CC10099BA64 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		A333128B27565EBA0099BA64 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -51,9 +122,15 @@
 		A33A2954274BC4C000170265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A33A2956274BC4C000170265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A358C952276B41FA00A5610A /* DoctorSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSeque.swift; sourceTree = "<group>"; };
+		A365713C2774AF7700D01D65 /* HospitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365713E2774AF7700D01D65 /* HospitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalUITests.swift; sourceTree = "<group>"; };
+		A36571402774AF7700D01D65 /* HospitalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A365714B2774AF8700D01D65 /* HospitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A365714D2774AF8700D01D65 /* HospitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalTests.swift; sourceTree = "<group>"; };
 		A3E1B93C276B70BA008E55FC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		A3EAB1BF276A09A400BAB284 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		A3EAB1C3276A1D9800BAB284 /* SupportSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportSeque.swift; sourceTree = "<group>"; };
+		A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
 		FCFA50542A9EB6B3255A51CF /* Pods-Hospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital.debug.xcconfig"; path = "Target Support Files/Pods-Hospital/Pods-Hospital.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,8 +139,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F6ECB02774BFDF006BC052 /* Pods_Hospital.framework in Frameworks */,
 				A30BD8C5276B7C0F00ECF7CB /* SQLite.framework in Frameworks */,
-				5FC321070B07ABBA8F225877 /* Pods_Hospital.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36571392774AF7700D01D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36571482774AF8700D01D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +183,10 @@
 			isa = PBXGroup;
 			children = (
 				A33A2947274BC4BF00170265 /* Hospital */,
+				A365713D2774AF7700D01D65 /* HospitalUITests */,
+				A365714C2774AF8700D01D65 /* HospitalTests */,
 				A33A2946274BC4BF00170265 /* Products */,
+				A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */,
 				82D62FDE685C20BCC571E323 /* Pods */,
 				7EDD9F10240A283D241F9D6D /* Frameworks */,
 			);
@@ -102,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				A33A2945274BC4BF00170265 /* Hospital.app */,
+				A365713C2774AF7700D01D65 /* HospitalUITests.xctest */,
+				A365714B2774AF8700D01D65 /* HospitalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,17 +208,49 @@
 				A33A2948274BC4BF00170265 /* AppDelegate.swift */,
 				A33A294A274BC4BF00170265 /* SceneDelegate.swift */,
 				A333128B27565EBA0099BA64 /* Main.storyboard */,
-				A3EAB1BF276A09A400BAB284 /* Menu.swift */,
 				A333128727565CC10099BA64 /* Main.swift */,
+				A3EAB1BF276A09A400BAB284 /* Menu.swift */,
+				A30CC30B277C792F0065F727 /* SignupSeque.swift */,
 				A30ED81A276E6FEF00C1A0A0 /* AppointmentSeque.swift */,
 				A358C952276B41FA00A5610A /* DoctorSeque.swift */,
 				A3EAB1C3276A1D9800BAB284 /* SupportSeque.swift */,
+				A3E1B93C276B70BA008E55FC /* CustomTableViewCell.swift */,
 				A33A2951274BC4C000170265 /* Assets.xcassets */,
 				A33A2953274BC4C000170265 /* LaunchScreen.storyboard */,
 				A33A2956274BC4C000170265 /* Info.plist */,
-				A3E1B93C276B70BA008E55FC /* CustomTableViewCell.swift */,
 			);
 			path = Hospital;
+			sourceTree = "<group>";
+		};
+		A365713D2774AF7700D01D65 /* HospitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A365713E2774AF7700D01D65 /* HospitalUITests.swift */,
+				A36571402774AF7700D01D65 /* HospitalUITestsLaunchTests.swift */,
+			);
+			path = HospitalUITests;
+			sourceTree = "<group>";
+		};
+		A365714C2774AF8700D01D65 /* HospitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A365714D2774AF8700D01D65 /* HospitalTests.swift */,
+			);
+			path = HospitalTests;
+			sourceTree = "<group>";
+		};
+		A3F6ECCB2774C127006BC052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F6ECD52774C127006BC052 /* SQLite.framework */,
+				A3F6ECD72774C127006BC052 /* SQLiteTests iOS.xctest */,
+				A3F6ECD92774C127006BC052 /* SQLite.framework */,
+				A3F6ECDB2774C127006BC052 /* SQLiteTests Mac.xctest */,
+				A3F6ECDD2774C127006BC052 /* SQLite.framework */,
+				A3F6ECDF2774C127006BC052 /* SQLiteTests tvOS.xctest */,
+				A3F6ECE12774C127006BC052 /* SQLite.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +276,42 @@
 			productReference = A33A2945274BC4BF00170265 /* Hospital.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A365713B2774AF7700D01D65 /* HospitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36571462774AF7700D01D65 /* Build configuration list for PBXNativeTarget "HospitalUITests" */;
+			buildPhases = (
+				A36571382774AF7700D01D65 /* Sources */,
+				A36571392774AF7700D01D65 /* Frameworks */,
+				A365713A2774AF7700D01D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A36571432774AF7700D01D65 /* PBXTargetDependency */,
+			);
+			name = HospitalUITests;
+			productName = HospitalUITests;
+			productReference = A365713C2774AF7700D01D65 /* HospitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A365714A2774AF8700D01D65 /* HospitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A36571512774AF8700D01D65 /* Build configuration list for PBXNativeTarget "HospitalTests" */;
+			buildPhases = (
+				A36571472774AF8700D01D65 /* Sources */,
+				A36571482774AF8700D01D65 /* Frameworks */,
+				A36571492774AF8700D01D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A36571502774AF8700D01D65 /* PBXTargetDependency */,
+			);
+			name = HospitalTests;
+			productName = HospitalTests;
+			productReference = A365714B2774AF8700D01D65 /* HospitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,6 +324,14 @@
 				TargetAttributes = {
 					A33A2944274BC4BF00170265 = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					A365713B2774AF7700D01D65 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A33A2944274BC4BF00170265;
+					};
+					A365714A2774AF8700D01D65 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A33A2944274BC4BF00170265;
 					};
 				};
 			};
@@ -174,12 +346,72 @@
 			mainGroup = A33A293C274BC4BF00170265;
 			productRefGroup = A33A2946274BC4BF00170265 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A3F6ECCB2774C127006BC052 /* Products */;
+					ProjectRef = A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A33A2944274BC4BF00170265 /* Hospital */,
+				A365713B2774AF7700D01D65 /* HospitalUITests */,
+				A365714A2774AF8700D01D65 /* HospitalTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A3F6ECD52774C127006BC052 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = A3F6ECD42774C127006BC052 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3F6ECD72774C127006BC052 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = A3F6ECD62774C127006BC052 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3F6ECD92774C127006BC052 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = A3F6ECD82774C127006BC052 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3F6ECDB2774C127006BC052 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = A3F6ECDA2774C127006BC052 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3F6ECDD2774C127006BC052 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = A3F6ECDC2774C127006BC052 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3F6ECDF2774C127006BC052 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = A3F6ECDE2774C127006BC052 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A3F6ECE12774C127006BC052 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = A3F6ECE02774C127006BC052 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A33A2943274BC4BF00170265 /* Resources */ = {
@@ -189,6 +421,20 @@
 				A333128C27565EBA0099BA64 /* Main.storyboard in Resources */,
 				A33A2955274BC4C000170265 /* LaunchScreen.storyboard in Resources */,
 				A33A2952274BC4C000170265 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A365713A2774AF7700D01D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36571492774AF8700D01D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +491,7 @@
 				A333128827565CC10099BA64 /* Main.swift in Sources */,
 				A3EAB1C4276A1D9800BAB284 /* SupportSeque.swift in Sources */,
 				A30ED81B276E6FEF00C1A0A0 /* AppointmentSeque.swift in Sources */,
+				A30CC30C277C792F0065F727 /* SignupSeque.swift in Sources */,
 				A3E1B93D276B70BA008E55FC /* CustomTableViewCell.swift in Sources */,
 				A33A294B274BC4BF00170265 /* SceneDelegate.swift in Sources */,
 				A358C953276B41FA00A5610A /* DoctorSeque.swift in Sources */,
@@ -252,7 +499,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A36571382774AF7700D01D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36571412774AF7700D01D65 /* HospitalUITestsLaunchTests.swift in Sources */,
+				A365713F2774AF7700D01D65 /* HospitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A36571472774AF8700D01D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365714E2774AF8700D01D65 /* HospitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A36571432774AF7700D01D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33A2944274BC4BF00170265 /* Hospital */;
+			targetProxy = A36571422774AF7700D01D65 /* PBXContainerItemProxy */;
+		};
+		A36571502774AF8700D01D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33A2944274BC4BF00170265 /* Hospital */;
+			targetProxy = A365714F2774AF8700D01D65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A33A2953274BC4C000170265 /* LaunchScreen.storyboard */ = {
@@ -444,6 +721,96 @@
 			};
 			name = Release;
 		};
+		A36571442774AF7700D01D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HL7HPWU6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azarakuss.HospitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hospital;
+			};
+			name = Debug;
+		};
+		A36571452774AF7700D01D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HL7HPWU6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azarakuss.HospitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hospital;
+			};
+			name = Release;
+		};
+		A36571522774AF8700D01D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HL7HPWU6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azarakuss.HospitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hospital.app/Hospital";
+			};
+			name = Debug;
+		};
+		A36571532774AF8700D01D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HL7HPWU6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azarakuss.HospitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hospital.app/Hospital";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,6 +828,24 @@
 			buildConfigurations = (
 				A33A295A274BC4C000170265 /* Debug */,
 				A33A295B274BC4C000170265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36571462774AF7700D01D65 /* Build configuration list for PBXNativeTarget "HospitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36571442774AF7700D01D65 /* Debug */,
+				A36571452774AF7700D01D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A36571512774AF8700D01D65 /* Build configuration list for PBXNativeTarget "HospitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36571522774AF8700D01D65 /* Debug */,
+				A36571532774AF8700D01D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

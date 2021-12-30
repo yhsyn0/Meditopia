@@ -164,7 +164,8 @@ class Main: UIViewController, MenuControllerDelegate
         
         do
         {
-            let documentDirectory = try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+            let documentDirectory = try FileManager.default.url(for: .documentDirectory,
+                                                                in: .userDomainMask, appropriateFor: nil, create: true)
             let fileUrl = documentDirectory.appendingPathComponent("doctors").appendingPathExtension("sqlite3")
             let database = try Connection(fileUrl.path)
             self.database = database
@@ -209,13 +210,15 @@ class Main: UIViewController, MenuControllerDelegate
             let xCoord = homeScrollView.frame.width * CGFloat(j)
             contentWidth += homeScrollView.frame.width
             homeScrollView.addSubview(imView)
-            imView.frame = CGRect(x: xCoord, y: 0, width: homeScrollView.frame.size.width, height: homeScrollView.frame.size.height)
+            imView.frame = CGRect(x: xCoord, y: 0, width: homeScrollView.frame.size.width,
+                                  height: homeScrollView.frame.size.height)
             imView.contentMode = .scaleToFill
         }
         
         homeScrollView.contentSize = CGSize(width: contentWidth, height: homeScrollView.frame.height)
         
-        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(changePage), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(changePage),
+                                     userInfo: nil, repeats: true)
         
         menu?.leftSide = true
         
@@ -302,7 +305,8 @@ class Main: UIViewController, MenuControllerDelegate
     
     @objc func startTimer()
     {
-        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(changePage), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self,
+                                     selector: #selector(changePage), userInfo: nil, repeats: true)
     }
     
     @IBAction func pageLeft(_ sender: UIButton)
@@ -340,7 +344,4 @@ class Main: UIViewController, MenuControllerDelegate
         timer.invalidate()
         startTimer()
     }
-    
 }
-
-
