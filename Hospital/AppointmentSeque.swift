@@ -202,8 +202,8 @@ func createTable() {
                          "16:00", "16:15", "16:30", "16:45"]
         let components = appointmentDate.calendar.dateComponents([.year, .month, .day, .weekday],
                                                                  from: appointmentDate.date)
-        let dateString = String(components.day!) + "/" +
-                            String(components.month!) + "/" + String(components.year!)
+        let dateString = String(components.day!) + "-" +
+                            String(components.month!) + "-" + String(components.year!)
         var doctorId: Int64 = -1
         do{
             let rows = try self.database.prepare(self.docTable.filter(docName == docSelectName))
