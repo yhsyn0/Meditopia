@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Hospital
-//
-//  Created by hsyn on 22.11.2021.
-//
-
 import UIKit
 
 @main
@@ -14,6 +7,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         Thread.sleep(forTimeInterval: 1.5)
         // Override point for customization after application launch.
+
+        let defaults = UserDefaults.standard
+        let defaultValue = ["loggedName" : ""]
+        defaults.register(defaults: defaultValue)
+        let defaultValue2 = ["loggedBirth" : ""]
+        defaults.register(defaults: defaultValue2)
+        let defaultValue3 = ["loggedEmail" : ""]
+        defaults.register(defaults: defaultValue3)
+
         return true
     }
 

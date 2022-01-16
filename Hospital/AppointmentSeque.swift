@@ -25,7 +25,7 @@ class AppointmentSeque: UIViewController {
     let appDate = Expression<String>("appDate")
     let patName = Expression<String?>("patName")
     let patBirth = Expression<String?>("patBirth")
-/*
+
 func createTable() {
         let createTable = self.appTable.create { (table) in
             table.column(self.appId, primaryKey: true)
@@ -39,16 +39,25 @@ func createTable() {
         }
         
         do {
-            //try self.database.run(createTable)
+            try self.database.run(createTable)
         }
         catch {
             print(error)
         }
     }
-*/
+
     override func viewDidLoad() {
         super.viewDidLoad()
-    do {
+        
+        let defaults = UserDefaults.standard
+        if defaults.string(forKey: "loggedName") != "" {
+            nameSurname.text = defaults.string(forKey: "loggedName")
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "dd-MM-yyyy"
+            let date = dateFormatter.date(from: defaults.string(forKey: "loggedBirth")!)
+            birthDate.date = date!
+        }
+        do {
             let documentDirectory = try FileManager.default.url(for: .documentDirectory,
                                                                    in: .userDomainMask,
                                                                    appropriateFor: nil, create: true)
@@ -262,10 +271,10 @@ func createTable() {
                                                                          from: appointmentDate.date)
                 let components2 = birthDate.calendar.dateComponents([.year, .month, .day, .weekday],
                                                                     from: birthDate.date)
-                let appoDate = String(components.day!) + "/" + String(components.month!) + "/" +
+                let appoDate = String(components.day!) + "-" + String(components.month!) + "-" +
                                                                 String(components.year!) + " " + appointmentTime
-                let patBirthDate = String(components2.day!) + "/" + String(components2.month!) +
-                                                                "/" + String(components2.year!)
+                let patBirthDate = String(components2.day!) + "-" + String(components2.month!) +
+                                                                "-" + String(components2.year!)
                 
                 try self.database.run(self.appTable.insert(self.appDate <- appoDate,
                                                            self.patName <- nameSurname.text,

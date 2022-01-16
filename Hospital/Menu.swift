@@ -1,10 +1,3 @@
-//
-//  Menu.swift
-//  Hospital
-//
-//  Created by hsyn on 15.12.2021.
-//
-
 import Foundation
 import UIKit
 

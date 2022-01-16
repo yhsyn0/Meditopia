@@ -1,17 +1,10 @@
-//
-//  Home.swift
-//  Hospital
-//
-//  Created by hsyn on 30.11.2021.
-//
-
 import UIKit
 import SideMenu
 import SQLite
 
 class Main: UIViewController, MenuControllerDelegate
 {
-    /*
+    
     var database: Connection!
     var numOfRows: Int = 0
     let docTable = Table("doctors")
@@ -129,7 +122,7 @@ class Main: UIViewController, MenuControllerDelegate
             print(error)
         }
     }
-    */
+    
     var menu: SideMenuNavigationController?
     var timer = Timer()
     var i = 0
@@ -158,7 +151,7 @@ class Main: UIViewController, MenuControllerDelegate
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        /*
+        
         // SQLite
         //------------------------------------------
         
@@ -175,11 +168,11 @@ class Main: UIViewController, MenuControllerDelegate
             print(error)
         }
     
-        //createTable()
+        createTable()
         //listUsers()
         //------------------------------------------
-        */
-        let itemsOfMenu = MenuListController(with: ["Home", "Doctors", "Appointment", "Support"])
+        
+        let itemsOfMenu = MenuListController(with: ["Home", "Doctors", "Appointment", "Profile", "Support"])
         itemsOfMenu.delegate = self
         menu = SideMenuNavigationController(rootViewController: itemsOfMenu)
         
@@ -225,7 +218,6 @@ class Main: UIViewController, MenuControllerDelegate
         menu?.setNavigationBarHidden(true, animated: false)
         SideMenuManager.default.leftMenuNavigationController = menu
         SideMenuManager.default.addPanGestureToPresent(toView: self.view)
-        
     }
 
     @IBAction func didTapMenu()
@@ -267,6 +259,16 @@ class Main: UIViewController, MenuControllerDelegate
         appointmentSeque.modalTransitionStyle = .crossDissolve
         appointmentSeque.modalPresentationStyle = .fullScreen
         
+        guard let profileSeque = mainStoryBoard.instantiateViewController(withIdentifier: "ProfileSeque") as?
+                ProfileSeque else
+                {
+                    print("Couldn't find the view controller named 'Profile Seque'")
+                    
+                    return
+                }
+        profileSeque.modalTransitionStyle = .crossDissolve
+        profileSeque.modalPresentationStyle = .fullScreen
+        
         menu?.dismiss(animated: true, completion: { [weak self] in
             
             if named == "Doctors"
@@ -282,6 +284,11 @@ class Main: UIViewController, MenuControllerDelegate
             if named == "Appointment"
             {
                 self?.present(appointmentSeque, animated: true, completion: nil)
+            }
+            
+            if named == "Profile"
+            {
+                self?.present(profileSeque, animated: true, completion: nil)
             }
 
         })

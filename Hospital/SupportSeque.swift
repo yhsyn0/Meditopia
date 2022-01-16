@@ -1,10 +1,3 @@
-//
-//  SupportSeque.swift
-//  Hospital
-//
-//  Created by hsyn on 15.12.2021.
-//
-
 import UIKit
 import SideMenu
 

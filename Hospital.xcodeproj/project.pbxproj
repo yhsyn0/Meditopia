@@ -18,6 +18,8 @@
 		A33A2952274BC4C000170265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33A2951274BC4C000170265 /* Assets.xcassets */; };
 		A33A2955274BC4C000170265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33A2953274BC4C000170265 /* LaunchScreen.storyboard */; };
 		A358C953276B41FA00A5610A /* DoctorSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358C952276B41FA00A5610A /* DoctorSeque.swift */; };
+		A362B5BA279317C800805000 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362B5B9279317C800805000 /* Welcome.swift */; };
+		A362B5C32793259C00805000 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362B5C22793259C00805000 /* Login.swift */; };
 		A365713F2774AF7700D01D65 /* HospitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365713E2774AF7700D01D65 /* HospitalUITests.swift */; };
 		A36571412774AF7700D01D65 /* HospitalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36571402774AF7700D01D65 /* HospitalUITestsLaunchTests.swift */; };
 		A365714E2774AF8700D01D65 /* HospitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365714D2774AF8700D01D65 /* HospitalTests.swift */; };
@@ -25,6 +27,11 @@
 		A3EAB1C0276A09A400BAB284 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAB1BF276A09A400BAB284 /* Menu.swift */; };
 		A3EAB1C4276A1D9800BAB284 /* SupportSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAB1C3276A1D9800BAB284 /* SupportSeque.swift */; };
 		A3F6ECB02774BFDF006BC052 /* Pods_Hospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DE4D3247ABF114DB5E1022 /* Pods_Hospital.framework */; };
+		A3F755532794408A00CDD2EC /* ProfileSeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F755522794408A00CDD2EC /* ProfileSeque.swift */; };
+		A3F755542794417100CDD2EC /* Pods_Hospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DE4D3247ABF114DB5E1022 /* Pods_Hospital.framework */; };
+		A3F755552794417100CDD2EC /* Pods_Hospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DE4D3247ABF114DB5E1022 /* Pods_Hospital.framework */; };
+		A3F755562794417500CDD2EC /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30BD8C4276B7C0F00ECF7CB /* SQLite.framework */; };
+		A3F755572794417500CDD2EC /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30BD8C4276B7C0F00ECF7CB /* SQLite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +129,8 @@
 		A33A2954274BC4C000170265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A33A2956274BC4C000170265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A358C952276B41FA00A5610A /* DoctorSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSeque.swift; sourceTree = "<group>"; };
+		A362B5B9279317C800805000 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		A362B5C22793259C00805000 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		A365713C2774AF7700D01D65 /* HospitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HospitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A365713E2774AF7700D01D65 /* HospitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalUITests.swift; sourceTree = "<group>"; };
 		A36571402774AF7700D01D65 /* HospitalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -131,6 +140,7 @@
 		A3EAB1BF276A09A400BAB284 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		A3EAB1C3276A1D9800BAB284 /* SupportSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportSeque.swift; sourceTree = "<group>"; };
 		A3F6ECCA2774C127006BC052 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		A3F755522794408A00CDD2EC /* ProfileSeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSeque.swift; sourceTree = "<group>"; };
 		FCFA50542A9EB6B3255A51CF /* Pods-Hospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital.debug.xcconfig"; path = "Target Support Files/Pods-Hospital/Pods-Hospital.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +158,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F755562794417500CDD2EC /* SQLite.framework in Frameworks */,
+				A3F755542794417100CDD2EC /* Pods_Hospital.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +167,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F755572794417500CDD2EC /* SQLite.framework in Frameworks */,
+				A3F755552794417100CDD2EC /* Pods_Hospital.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +232,9 @@
 				A33A2951274BC4C000170265 /* Assets.xcassets */,
 				A33A2953274BC4C000170265 /* LaunchScreen.storyboard */,
 				A33A2956274BC4C000170265 /* Info.plist */,
+				A362B5B9279317C800805000 /* Welcome.swift */,
+				A362B5C22793259C00805000 /* Login.swift */,
+				A3F755522794408A00CDD2EC /* ProfileSeque.swift */,
 			);
 			path = Hospital;
 			sourceTree = "<group>";
@@ -492,9 +509,12 @@
 				A3EAB1C4276A1D9800BAB284 /* SupportSeque.swift in Sources */,
 				A30ED81B276E6FEF00C1A0A0 /* AppointmentSeque.swift in Sources */,
 				A30CC30C277C792F0065F727 /* SignupSeque.swift in Sources */,
+				A3F755532794408A00CDD2EC /* ProfileSeque.swift in Sources */,
 				A3E1B93D276B70BA008E55FC /* CustomTableViewCell.swift in Sources */,
+				A362B5BA279317C800805000 /* Welcome.swift in Sources */,
 				A33A294B274BC4BF00170265 /* SceneDelegate.swift in Sources */,
 				A358C953276B41FA00A5610A /* DoctorSeque.swift in Sources */,
+				A362B5C32793259C00805000 /* Login.swift in Sources */,
 				A3EAB1C0276A09A400BAB284 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,10 +1,3 @@
-//
-//  SignupSeque.swift
-//  Hospital
-//
-//  Created by hsyn on 29.12.2021.
-//
-
 import UIKit
 import SQLite
 import SQLite3
@@ -37,7 +30,7 @@ class SignupSeque: UIViewController, UITextFieldDelegate {
         let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         return emailPred.evaluate(with: email)
     }
-/*
+
     func createTable() {
             let createTable = self.userTable.create { (table) in
                 table.column(self.userId, primaryKey: true)
@@ -56,7 +49,7 @@ class SignupSeque: UIViewController, UITextFieldDelegate {
                 print(error)
             }
         }
-*/
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -76,27 +69,26 @@ class SignupSeque: UIViewController, UITextFieldDelegate {
         nameOutlet.smartInsertDeleteType = UITextSmartInsertDeleteType.no
         nameOutlet.delegate = self
     }
-    
-    @IBAction func continueAction(_ sender: UIButton) {
+
+    func continueAction() {
         let mainStoryBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        guard let navController = mainStoryBoard.instantiateViewController(withIdentifier: "NavController") as?
-                UINavigationController else
+        guard let login = mainStoryBoard.instantiateViewController(withIdentifier: "Login") as?
+                Login else
                 {
-                    print("Couldn't find the view controller named 'Navigation Controller'")
+                    print("Couldn't find the view controller named 'Login'")
                     
                     return
                 }
-        navController.modalTransitionStyle = .crossDissolve
-        navController.modalPresentationStyle = .fullScreen
+        login.modalTransitionStyle = .crossDissolve
+        login.modalPresentationStyle = .fullScreen
         
-        present(navController, animated: true, completion: nil)
+        present(login, animated: true, completion: nil)
     }
     @IBOutlet weak var nameOutlet: UITextField!
     @IBOutlet weak var birthOutlet: UIDatePicker!
     @IBOutlet weak var mailOutlet: UITextField!
     @IBOutlet weak var passOutlet: UITextField!
     @IBOutlet weak var passAgainOutlet: UITextField!
-    @IBOutlet weak var continueButton: UIButton!
     
     @IBAction func submitButton(_ sender: UIButton) {
         if nameOutlet.text == "" || mailOutlet.text == "" ||
@@ -148,10 +140,10 @@ class SignupSeque: UIViewController, UITextFieldDelegate {
             passOutlet.text = ""
             passAgainOutlet.text = ""
             
-            let submitAlert = UIAlertController(title: "Succesfull",
+            let submitAlert = UIAlertController(title: "Succesful",
                                           message: "Your account has been created !", preferredStyle: UIAlertController.Style.alert)
             submitAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
-                self.continueButton.sendActions(for: .touchUpInside)
+                self.continueAction()
             }))
             present(submitAlert, animated: true, completion: nil)
             
